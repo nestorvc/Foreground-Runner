@@ -25,7 +25,7 @@ class Main extends Sprite
 	
 	private function init(?e:Event = null):Void 
 	{
-		TestFlight.takeOff("f7dce3e10fde0015a85c8c58feed4c27_MTg0ODc0MjAxMy0wMi0wNyAyMToxNzo1NS40Mzg2MzQ");
+		TestFlight.takeOff("I am writting my TOKEN here");
 		TestFlight.passCheckpoint("Open game");
 		TestFlight.remoteLog("LOG: Game was opened");
 		
